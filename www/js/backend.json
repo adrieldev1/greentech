@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "imagem": "img/th-removebg-preview.png",
+        "nome": "porta lápis <br>modelo: gatinho</br>",
+        "principal_caracteristica": "material reciclavel",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "porta lápis reciclavél entre os preferidos da criançada,bonito,sutentavel.",
+        "detalhes": [
+            {
+                "caracteristica": "material sutentavel:",
+                "detalhes": "rolos de papelão."
+            },
+            {
+                "caracteristica": "cuidado:",
+                "detalhes": "pode se demontar em pequenos pedaços."
+            },
+            {
+                "caracteristica": "Design:",
+                "detalhes": "gatinho."
+            },
+            {
+                "caracteristica": "resistencia do mateirial:",
+                "detalhes": "não resistente a água. "
+            }
+            
+        ],
+        "preco": 10,
+        "preco_promocional": 7
+    },
+    {
+        "id": 2,
+        "imagem": "img/3 item.png",
+        "nome": "jarros <br>modelo: afro</br>",
+        "principal_caracteristica": "material reciclavel",
+        "rating": 4.3,
+        "likes": "94%",
+        "reviews": 15,
+        "descricao": "jarros de decoração, inpirados na cultura afro descendetes ",
+        "detalhes": [
+            {
+                "caracteristica": "material sutentavel:",
+                "detalhes": "garrafas de vidro."
+            },
+            {
+                "caracteristica": "cuidado:",
+                "detalhes": "pode se demontar em pequenos pedaços."
+            },
+            {
+                "caracteristica": "Design:",
+                "detalhes": "afro."
+            },
+            {
+                "caracteristica": "resistencia do mateirial:",
+                "detalhes": "não resistente a quedas. "
+            }
+        ],
+        "preco": 25,
+        "preco_promocional": 20
+    },
+    {
+        "id": 3,
+        "imagem": "img/4 item.png",
+        "nome": "jarro de flor  </br",
+        "principal_caracteristica": "modelo: minimalista",
+        "rating": 4.5,
+        "likes": "96%",
+        "reviews": 25,
+        "descricao":"jarro para flores BLACKeWHITE",
+        "detalhes": [
+            {
+                "caracteristica": "material sutentavel",
+                "detalhes": "madeira e papelão"
+            },
+            {
+                "caracteristica": "cuidado:",
+                "detalhes": "ao quebrar pode ter partes afiadas. "
+            },
+            {
+                "caracteristica": "Design:",
+                "detalhes":"minimalista." 
+            },
+            {
+                "caracteristica": "resistencia do mateirial:",
+                "detalhes": "resistente a água."
+            }
+        ],
+        "preco": 25,
+        "preco_promocional": 20
+    },
+    {
+        "id": 4,
+        "imagem": "img/objetos-materiais-reciclados-removebg-preview.png",
+        "nome": "porta lápis",
+        "principal_caracteristica": "modelo: super-heros.",
+        "rating": 4.8,
+        "likes": "89%",
+        "reviews": 30,
+        "descricao": "porta lápis reciclavél entre os preferidos da criançada,bonito,sutentavel.",
+        "detalhes": [
+            {
+                "caracteristica": "material sutentavel:",
+                "detalhes": "rolos de papelão."
+            },
+            {
+                "caracteristica": "cuidado:",
+                "detalhes": "pode se demontar em pequenos pedaços."
+            },
+            {
+                "caracteristica": "Design:",
+                "detalhes": "super-heros."
+            },
+            {
+                "caracteristica": "resistencia do mateirial",
+                "detalhes": "não resistente a água. "
+            }
+        ],
+        "preco": 12,
+        "preco_promocional": 10
+    }
+]

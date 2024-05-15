@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Required meta tags-->
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- Color theme for statusbar (Android only) -->
+  <meta name="theme-color" content="#2196f3">
+  <!-- Your app title -->
+  <title>Template Tab</title>
+  <!-- Path to Framework7 Library Bundle CSS -->
+  <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+  <!-- CSS PERSONALIZADO PARA MENU-->
+  <link rel="stylesheet" href="css/index.css">
+  <!--Ícones Material Design-->
+  <link rel="stylesheet" href="css/materialdesignicons.min.css">
+  <!--icones do remix icon-->
+  <link rel="stylesheet" href="css/remixicon/remixicon.css">
+
+</head>
+
+<body>
+  <!-- App root element -->
+  <div id="app">
+
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main">
+
+
+
+      <!-- Initial Page, "data-name" contains page name -->
+      <div data-name="detalhes" class="page color-theme-blue">
+
+        <!-- TAB BAR-->
+        <div class="toolbar toolbar-bottom">
+          <div class="toolbar-inner display-flex align-items-center justify-content-center">
+            <div class="flex-40 text-align-center">
+              <span class="riscado reviews">R$ 20</span>
+              <h3 class="princing no-padding no-margin">R$15</h3>
+            </div>
+            <div class="flex-60">
+
+              <button class="add-cart">
+                adicionar carrinho</button>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <!-- Scrollable page content -->
+        <div class="page-content">
+          <div class="prod-detail">
+            <div class="buttons-top">
+              <a href="/index/"><i class="ri-arrow-left-s-line"></i></a>
+              <a href="#"><i class="ri-heart-3-line"></i></a>
+              <a href="#"><i class="ri-share-2-line"></i></a>
+            </div>
+            <img src="img/objetos-materiais-reciclados-removebg-preview.png">
+          </div>
+          <div class="prod-content">
+            <div class="block">
+              <div class="line padding-top">
+                <b>porta lápis</b>
+                <button class="promo-btn">promocão</button>
+              </div>
+              <div class=" margin-top display-flex align-items-center justify-content-start">
+                <button class="btn-rates"><i class="mdi mdi-star"></i> 4.9</button>
+                <button class="btn-rates"><i class="ri-thumb-up-fill"></i> 94%</button>
+                <span class="reviews"> 137 reviews</span>
+              </div>
+              <div class="display-flex align-items-center justify-content-center">
+                <p>porta lápis reciclavél entre os preferidos da criançada ,
+                  bonito,sutentavel.
+                </p>
+              </div>
+
+              <table>
+                <tr>
+                  <th>Característica</th>
+                  <th>Detalhes</th>
+                </tr>
+                <tr>
+                  <td>modelo </td>
+                  <td>super-heros</td>
+                </tr>
+                <tr>
+                  <td>palelão</td>
+                  <td>reciclavél</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Path to Framework7 Library Bundle JS-->
+  <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+  <!-- jQuery -->
+  <script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>
+  <!-- Roteamento do app-->
+  <script type="text/javascript" src="js/routes.js"></script>
+  <script src="cordova.js"></script>
+</body>
+
+</html>
